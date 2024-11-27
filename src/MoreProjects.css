@@ -1,0 +1,76 @@
+.more-projects {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .more-title{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .project-grids {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .project-cards {
+    width: 350px;
+    height:300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .project-cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-images {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .project-titles {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    margin-top: 10px;
+    
+  }
+  @media (max-width: 768px) {
+    .more-title {
+        font-size: 2rem;
+    }
+
+    .project-grids {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .project-cards {
+        width: 40%;
+        height: 130px;
+        padding: 15px;
+    
+    }
+
+    .project-images {
+        height: 70px;
+    }
+
+    .project-titles {
+        font-size: 0.5rem;
+        margin-top: 8px;
+    }
+}
