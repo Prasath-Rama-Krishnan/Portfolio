@@ -1,6 +1,6 @@
 import './App.css';
 import './index.css';
-import image from './images/my photo.jpg';
+import image from './images/tobi.webp';
 import image1 from './images/project1.png';
 import image2 from './images/project2.png';
 import image3 from './images/project.jpeg';
