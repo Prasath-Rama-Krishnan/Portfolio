@@ -1,0 +1,20 @@
+    
+      <div className="about" id="about">
+        <fieldset className="init">
+          <h1>About Me</h1>
+          <p>
+            Hi! My name is <b>Prasath</b>, and I am an aspiring web developer with a strong passion for designing and
+            building engaging, user-friendly websites. My journey in web development began with a curiosity about
+            digital solutions, evolving into a commitment to blending creativity and technology to craft meaningful
+            experiences.
+          </p>
+          <div className='frame'>
+            <button className='custombutton'>
+              <a className='col' href='https://drive.google.com/file/d/1Qsohi5cpIwUxvc39oNABAUQSfGJMHabq/view?usp=drivesdk'><FaArrowRightLong />View Resume</a>
+            </button>
+          </div>
+        </fieldset>
+        <div className="photo">
+          <img src={image} alt="Profile" />
+        </div>
+      </div>

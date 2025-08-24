@@ -1,0 +1,90 @@
+/* src/LandingPage.css */
+
+.landing-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #111827, #000, #1f2937);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Glow background */
+.landing-glow {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.4), transparent 70%);
+  border-radius: 50%;
+  filter: blur(120px);
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Text Section */
+.landing-text {
+  z-index: 2;
+  max-width: 800px;
+}
+
+/* Title */
+.landing-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #a855f7; /* purple highlight */
+}
+
+/* Subtitle */
+.landing-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+/* Description */
+.landing-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  opacity: 0.85;
+}
+
+/* Button */
+.landing-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(90deg, #9333ea, #a855f7, #9333ea);
+  color: white;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+/* Scroll Icon */
+.scroll-icon {
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+  color: #a855f7;
+  z-index: 2;
+}
