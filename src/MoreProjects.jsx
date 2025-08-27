@@ -10,26 +10,26 @@ const additionalprojects = [
     { id: 1, title: "Gamification with Education", 
         description: "An interactive platform with educational games for creativity and learning.", 
         image: image3, 
-        link: "https://github.com/Prasath-Rama-Krishnan/Gamification-with-education" 
+        link: "https://gamification-with-education.netlify.app/" 
       },
       { id: 2, title: "Streetlight Control System",
          description: "Automating streetlight operations with real-time control and status updates.", 
          image: image2, 
-         link: "https://github.com/Prasath-Rama-Krishnan/streetlight-update" },
+         link: "https://streetlight-monitoring.netlify.app/" },
       {
         id: 3, 
           title: "Farm Fresh Product",
           image: images, 
-          link: "https://github.com/Prasath-Rama-Krishnan/Farm-Fresh-selling-platform" 
+          link: "https://farmfreshs.vercel.app/" 
          },
       { id: 4, 
         title: "CGPA Calculation", 
         description: "Accurately tracks CGPA with user-friendly input and real-time results.", 
-        image: image4, link: "https://github.com/Prasath-Rama-Krishnan/CGPA-CALZ" },
+        image: image4, link: "https://cgpa-calz.netlify.app/" },
       { id: 6, 
         title: "Music Player", 
         image: image5,
-         link: "https://github.com/Prasath-Rama-Krishnan/Music-Player" },
+         link: "https://my-music-track.netlify.app/" },
         { id: 5, 
         title: "Online Bookstore",
          description: "A responsive bookstore with search filters and a user-friendly UI.", 

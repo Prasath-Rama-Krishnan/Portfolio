@@ -405,9 +405,10 @@ a { text-decoration: none; color: inherit; }
 /* =========================================================
    SCROLL OFFSETS (fixed navbar)
    ========================================================= */
-#skills, #projects, #about, #contact {
+#skills, #projects, #about, #contact, #certificates {
   scroll-margin-top: 80px;
 }
+
 
 /* =========================================================
    RESPONSIVE

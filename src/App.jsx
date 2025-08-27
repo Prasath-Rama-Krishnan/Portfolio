@@ -25,6 +25,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import MoreProjects from './MoreProjects.jsx';
 import LandingPage from "./LandingPage.jsx";
+import  Certificate  from './Certificate.jsx';
 
 /* ---------------- Footer Component ---------------- */
 const Footer = () => {
@@ -95,21 +96,21 @@ const Home = () => {
     { id: 1, title: "Gamification with Education", 
       description: "An interactive platform with educational games for creativity and learning.", 
       image: image3, 
-      link: "https://github.com/Prasath-Rama-Krishnan/Gamification-with-education" 
+      link: "https://gamification-with-education.netlify.app/" 
     },
     { id: 2, title: "Streetlight Control System",
        description: "Automating streetlight operations with real-time control and status updates.", 
        image: image2, 
-       link: "https://github.com/Prasath-Rama-Krishnan/streetlight-update" },
+       link: "https://streetlight-monitoring.netlify.app/" },
     { id: 3, 
       title: "Farm Fresh Product",
       image: images, 
-      link: "https://github.com/Prasath-Rama-Krishnan/Farm-Fresh-selling-platform" },
+      link: "https://farmfreshs.vercel.app/" },
     { id: 4, 
       title: "CGPA Calculation", 
       description: "Accurately tracks CGPA with user-friendly input and real-time results.", 
       image: image4, 
-      link: "https://github.com/Prasath-Rama-Krishnan/CGPA-CALZ" },
+      link: "https://cgpa-calz.netlify.app/" },
   ];
 
   const skills = [
@@ -182,7 +183,10 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
+    
+      <div id="certificates">
+        <Certificate />
+      </div>
       <div className="skills" id="skills">
         <h1 className="section-title">Technical Skills</h1>
         <div className="skills-container">
@@ -274,11 +278,16 @@ function App() {
               <a href="#projects" onClick={(e) => { handleScroll(e); setMenuOpen(false); }}>Projects</a>
             </li>
             <li>
+              <a href="#certificates" onClick={(e) => { handleScroll(e); setMenuOpen(false); }}>Certificates</a>
+            </li>
+            <li>
               <a href="#skills" onClick={(e) => { handleScroll(e); setMenuOpen(false); }}>Skills</a>
             </li>
             <li>
               <a href="#contact" onClick={(e) => { handleScroll(e); setMenuOpen(false); }}>Contact</a>
             </li>
+            
+
           </ul>
         </div>
       </nav>
