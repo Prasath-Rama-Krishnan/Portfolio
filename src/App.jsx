@@ -5,6 +5,8 @@ import image from './images/my-photo.jpg';
 import image2 from './images/project2.png';
 import image3 from './images/project.jpeg';
 import image4 from './images/photo4.webp';
+import image5 from './images/image5.avif';
+import image6 from './images/image6.jpg';
 import htmlImage from './images/html.jpg';
 import cssImage from './images/css.png';
 import jsImage from './images/js.png';
@@ -98,19 +100,19 @@ const Home = () => {
       image: image3, 
       link: "https://gamification-with-education.netlify.app/" 
     },
-    { id: 2, title: "Streetlight Control System",
-       description: "Automating streetlight operations with real-time control and status updates.", 
-       image: image2, 
-       link: "https://streetlight-monitoring.netlify.app/" },
+    { id: 2, title: "Movie Streaming Website",
+       description: "A modern movie streaming platform featuring movie browsing, search functionality, detailed movie information, and a responsive user interface.", 
+       image: image5, 
+       link: "https://github.com/Prasath-Rama-Krishnan/Movie-streaming" },
     { id: 3, 
       title: "Farm Fresh Product",
       image: images, 
       link: "https://farmfreshs.vercel.app/" },
     { id: 4, 
-      title: "CGPA Calculation", 
-      description: "Accurately tracks CGPA with user-friendly input and real-time results.", 
-      image: image4, 
-      link: "https://cgpa-calz.netlify.app/" },
+      title: "AQI Monitoring System", 
+      description: "An Air Quality Index monitoring application that displays real-time air quality data, pollution levels, and environmental insights through an interactive dashboard.", 
+      image: image6, 
+      link: "https://github.com/Prasath-Rama-Krishnan/AQI-project" },
   ];
 
   const skills = [
@@ -140,7 +142,7 @@ const Home = () => {
     <img src={image} alt="Profile" className="about-image" />
     <div className="about-text">
       <p>
-        I’m <b>Prasath Ramakrishnan</b>, a 3rd-year Computer Science student and passionate web developer.  
+        I’m <b>Prasath Ramakrishnan</b>, a Computer Science and Engineering graduate and passionate web developer.  
         I love building interactive and problem-solving digital experiences using modern technologies like  
         <b> React, Node.js, and MongoDB</b>.  
       </p>
@@ -152,8 +154,8 @@ const Home = () => {
         My goal is to become a <b>full-stack developer</b> and also explore AI and scalable cloud applications  
         to create impactful solutions for real-world challenges.
       </p>
-      <a href="https://drive.google.com/file/d/1uPP-1d3P_Ueu9hOXeFV7TolPvz_48Yvq/view?usp=drivesdk" download className="resume-btn">
-      Download Resume
+      <a href="https://drive.google.com/file/d/1UzXJmMUt6sH5UO_OcNxktXaeejh4mwXm/view?usp=drivesdk" download className="resume-btn">
+      View Resume
       </a>
 
     </div>
