@@ -17,13 +17,13 @@ const additionalprojects = [
     { id: 7, title: "Movie Streaming Website",
              description: "A modern movie streaming platform featuring movie browsing, search functionality, detailed movie information, and a responsive user interface.", 
              image: image7, 
-             link: "https://github.com/Prasath-Rama-Krishnan/Movie-streaming" 
+             link: "https://movie-streaming-ten.vercel.app/" 
     },
     {
         id: 3, 
           title: "Farm Fresh Product",
           image: images, 
-          link: "https://farmfreshs.vercel.app/" 
+          link: "https://farm-fresh-rosy.vercel.app/" 
     },
     { id: 8, 
                title: "AQI Monitoring System", 
