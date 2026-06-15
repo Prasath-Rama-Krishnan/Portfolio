@@ -112,7 +112,7 @@ const Home = () => {
       title: "AQI Monitoring System", 
       description: "An Air Quality Index monitoring application that displays real-time air quality data, pollution levels, and environmental insights through an interactive dashboard.", 
       image: image6, 
-      link: "https://github.com/Prasath-Rama-Krishnan/AQI-project" },
+      link: "https://aqi-analysis-project.vercel.app/" },
   ];
 
   const skills = [
